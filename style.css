@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:antiquewhite;
+   
+
+}
+.nav-bar ul{
+    font-family: 'Lato';
+    display:flex;
+    list-style-type: none;
+
+    height: 60px;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+.nav-bar ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.3rem;
+    color: white;
+    
+    
+}
+.home i{
+    padding: 8px;
+}
+.brand img{
+    margin-left: 0%;
+height:40px;
+width: 60px;
+padding: 0 8px;
+}
+.signup{
+    color:rgba(196, 210, 223, 0.481);
+    margin-left: 1000px;
+}
+.login{
+    background-color: white;
+    color:black;
+    border-radius:0.85rem;
+    height: 30px;
+    width: 80px;
+    font-weight:100px;
+    text-align:center;
+    align-items: end;
+}
+.border:hover{
+    color: 2px solid grey;
+}
+.Container h1{
+    display: flexbox;
+}
+.Container{
+    font-family: 'Varela Round', sans-serif;
+    color:whitesmoke;
+    min-height: 70vh;
+    display: flex;
+    width: 80%;
+    background-image: url('edm hits.jpg');
+    background-position: 50vh;
+    margin:23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    
+}
+.bottom{
+    bottom:0;
+    position:sticky;
+    height: 120px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#myProgressBar{
+width:70vw;
+height: 5px;
+
+}
+#myProgressBar::-webkit-progress-value {
+    background: green;
+}
+
+.icons{
+    font-size:25px;
+   padding: 10px 30px;
+   display: flexbox;
+}
+.icons i{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.songItem img{
+    height: 70px;
+    padding: 10px 10px;
+    border-radius: 34px;
+    
+}
+.songItem{
+    display: flex;
+    height:50px;
+    align-items: center;
+    margin-top: 90px;
+    color:black;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    border-radius: 0.95rem;
+    position:relative;
+    left:-400px; 
+    border-color: 2px solid black;
+    }
+    .songItem span{
+    
+        padding: 10px 10px;
+        
+    }
+    .timeStamp{
+
+cursor: pointer;
+
+    }
+.timeStamp i{
+    padding:10px 10px;
+align-items: center;
+}
+    .songInfo{
+        position: absolute;
+        left: 10vw;
+        font-family: 'Varela Round', sans-serif;
+    }
+    
